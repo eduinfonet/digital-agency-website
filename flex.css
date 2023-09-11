@@ -1,0 +1,40 @@
+.parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+  flex-wrap: wrap;
+}
+.child1 {
+  padding: 50px;
+  background-color: aqua;
+  font-size: 20px;
+  font-weight: 800;
+  color: aliceblue;
+  flex-grow: 2;
+}
+
+.child2 {
+  padding: 50px;
+  background-color: rgb(137, 144, 144);
+  font-size: 20px;
+  font-weight: 800;
+  color: aliceblue;
+  flex-grow: 3;
+}
+
+.child3 {
+  padding: 50px;
+  background-color: rgb(113, 7, 60);
+  font-size: 20px;
+  font-weight: 800;
+  color: aliceblue;
+}
+.child4 {
+  padding: 50px;
+  background-color: rgb(1, 255, 10);
+  font-size: 20px;
+  font-weight: 800;
+  color: aliceblue;
+}
